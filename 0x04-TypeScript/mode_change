@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Find all Python files and make them executable
+find . -name "*.py" -exec chmod a+x {} \;
+find . -name "*.sh" -exec chmod a+x {} \;
+find . -name "*.js" -exec chmod a+x {} \;
+find . -name "*.ts" -exec chmod a+x {} \;
+find . -name "*.sql" -exec chmod a+x {} \;
+find . -name "*.bash" -exec chmod a+x {} \;
